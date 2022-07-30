@@ -3,7 +3,10 @@ title: "STA130H1S -- Fall 2022"
 subtitle: Week 3 Tutorial Handout
 output: 
   pdf_document
-
+header-includes:
+   - \usepackage{float}
+   - \usepackage{caption}
+   - \captionsetup[figure]{font=scriptsize}
 ---
 
 
@@ -30,50 +33,86 @@ output:
 - Handling missing values (NAs)
 - Creating summary tables
 
+#### Data wrangling with R (20 min) : 
+
+- `dplyr` functions: select(),filter(), arrange(), desc(), mutate(), summarise(), groupby(), is.na(), and na.rm=TRUE
+- data summary: mean(), min(), max(), median(), IQR(), range(), quantile(), var(), sd(), n(), sum()
+
+For functions above, you may want to present the ideas through:
+- an R demo with the Olympics Dataset
+- going through questions from [*Week2*](https://q.utoronto.ca/courses/239327/quizzes/269319) and [Week3](https://q.utoronto.ca/courses/239327/quizzes/269908) practice quizzes
+- come up with your own quiz (e.g. on Kahoot!)
+
 #### Discussion (20 min) :  
 
+- *Must Do* Discuss the plagarism video in R homework.(If the majority of the students didn't watch, play the video on projector). Some questions to ask
+  - What are the 6 most common types of plagarism?
+  - What is unexpected to you from the video or what have you learned from this video?
+  - Did you see any behavior of others that could've been counted as plagarism? How would you correct them/help them avoid plagarism?
+
 - What are the three interrelated rules that make a dataset tidy? 
-  - Each variable must have its own column.
-  - Each observation must have its own row.
-  - Each value must have its own cell.
+  <!-- - Each variable must have its own column. -->
+  <!-- - Each observation must have its own row. -->
+  <!-- - Each value must have its own cell. -->
+  
+![Tidy data @allison_horst](tidy_rules.jpeg){width=75%}
 
-```{r plot1, echo=FALSE, fig.align='center', out.width = "60%"}
-knitr::include_graphics('tidy_rules.png')
 
+
+
+- Wheel of Destiny
+
+Stella McStat had been running a small-time gambling operation on campus for several months during her first year at U of T. It was disrupted during COVID, but now that vaccines are mandatory to be on campus, Stella is getting things back up and running.
+
+```{r plot2, echo=FALSE, fig.align='center', out.width = "40%",fig.pos="H", fig.cap = "Adapted from Lawton, L. (2009) An Exercise for Illustrating the Logic of Hypothesis Testing, Journal of Stat. Education, 17(2)."}
+knitr::include_graphics('stella2.png')
 ```   
+
+The format: For each spin of the wheel, two gamblers take part. For a toonie each ($2 Canadian), Stella sells one a red ticket and one a black ticket  (i.e., total $4). Then Stella spins the Wheel of Destiny. The person who holds the colour on which the spinner stops gets $3.50 (Stella keeps $0.50 per spin for running the game and providing snacks).
+
+Stella just bought a new spinner, the critical piece of equipment for this game. She's heard some mixed reviews about the manufacturer she has purchased from. Before she beings using this spinner, she wants to make sure that it is, in fact, fair—she wants both colours to come up equally often. Because of the set-up of the game, Stella has no incentive to cheat and wants the game to be as fair as possible.
+
+Everything she can examine about the wheel seems fine; there is the same number of sectors of each colour and they each have the same area. BUT! Stella has a great idea and decides to come to YOU, her statistical guru, and ask you to verify that the new spinner is fit to use.
+
+```{r plot3, echo=FALSE, fig.align='center', out.width = "40%",fig.pos="H", fig.cap = "Adapted from Lawton, L. (2009) An Exercise for Illustrating the Logic of Hypothesis Testing, Journal of Stat. Education, 17(2)."}
+knitr::include_graphics('fair.png')
+```   
+1. Describe a procedure for testing the spinner. Assume you could have physical access to Stella's spinner (while maintaining physical distancing). The procedure should be statistical in nature, i.e. not taking apart the spinner and checking the construction, etc. It should also be possible for you to actually do the testing procedure, e.g., no "do x infinite times".
+
+2. Describe criteria you could set for results from your test under which you would be:
+
+i) fairly sure the spinner is fair,
+ii) fairly sure the spinner is NOT fair, and
+iii) when you wouldn't be willing to give Stella a decision either way.
+
+
 <!-- ![Tidy data rules. Image from https://r4ds.had.co.nz/tidy-data.html](tidy_rules.png) -->
 
 
-- Are these data below tidy? Why or why not? If not, how to make them tidy?
-```{r plot2, echo=FALSE, out.width="60%", fig.align='center'}
-knitr::include_graphics('table.png')
-
-``` 
+<!-- - Are these data below tidy? Why or why not? If not, how to make them tidy? -->
 <!-- ![Tables.Image from https://r4ds.had.co.nz/tidy-data.html](table.png) -->
 
- 
-- Why is data visualization so important?
+<!-- - Why is data visualization so important? -->
 
-- Why does your audience matter? (Think about what message you want to portray and the types of data/ visualizations that you’ll use)
+<!-- - Why does your audience matter? (Think about what message you want to portray and the types of data/ visualizations that you’ll use) -->
 
-- Why is it important for data visualizations to be intuitive? How can you ensure your figures are intuitive to the intended audience?
+<!-- - Why is it important for data visualizations to be intuitive? How can you ensure your figures are intuitive to the intended audience? -->
 
-- What might happen to a data visualization project if you failed to clean the data?
+<!-- - What might happen to a data visualization project if you failed to clean the data? -->
 
 \newpage
 
 #### Writing prompt (30 min) :  
 
-You have just been hired by a consultancy company. Congratulations! They are doing a report on each Olympics for the past 10 years. Given your recent experience in STA130, you ask to be responsible for the 2012 summary. Write a short report to your boss on information that can be gleaned about the ages of the athletes (since your boss' favourite sports are badminton and weightlifting, you know she will be happy if your summary talks about these sports specifically, but you can talk about other interesting of features athletes' ages which can be learned from your plots and tables.)
+In your homework, you provided some visualizations, summaries, and discussion about the ages of the 2012 Olympic athletes for your boss.  From the perspective of the message and the audience, compare and contrast graphical visualizations and tabular summaries in terms of their strengths and weaknesses, and under what circumstances each of these might be the most appropriate and why. Comment on the relevance of data cleaning and data wrangling for graphical visualizations and tabular summaries.
 
 
 ### Important Features to Include
 
--	Start off with a small introduction. You should include 1 or 2 sentences to draw your reader in, and then explain what you will be discussing. 
--	Make sure to include at least 1 figure to help your reader visualize what you are speaking about. 
--	You want to show off all the knowledge you gained in STA130 so you must include at least 2 vocabulary words. However, your boss isn't a statistician, therefore you must define any vocabulary terms you used.
--	Make sure to finish with a conclusion to remind your boss of the key take home points from your summary about the athletes' ages.
 
+-	Start off with a small introduction. You should include 1 or 2 sentences to draw your reader in, and then explain what you will be discussing. 
+-	You want to show off all the knowledge you gained in STA130 so you must include at least 2 vocabulary words. However, they should be understandable to non-statisticians, therefore you must define any vocabulary terms you used.
+- Think about what message you want to portray and why it matters to use different types of data/ visualizations with the audience in mind.
 
 
 
