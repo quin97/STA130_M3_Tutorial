@@ -43,24 +43,23 @@ For functions above, you may want to present the ideas through:
 - going through questions from [*Week2*](https://q.utoronto.ca/courses/239327/quizzes/269319) and [Week3](https://q.utoronto.ca/courses/239327/quizzes/269908) practice quizzes
 - come up with your own quiz (e.g. on Kahoot!)
 
-#### Discussion (20 min) :  
+#### Plagarism & Paraphrasing (25-30 min) :  
 
 - *Must Do* Discuss the plagarism video in R homework.(If the majority of the students didn't watch, play the video on projector). Some questions to ask
   - What are the 6 most common types of plagarism?
   - What is unexpected to you from the video or what have you learned from this video?
   - Did you see any behavior of others that could've been counted as plagarism? How would you correct them/help them avoid plagarism?
-
-- What are the three interrelated rules that make a dataset tidy? 
-  <!-- - Each variable must have its own column. -->
-  <!-- - Each observation must have its own row. -->
-  <!-- - Each value must have its own cell. -->
   
-![Tidy data @allison_horst](tidy_rules.jpeg){width=75%}
+  
+- *If time* Paraphrasing discussion (on separate handout)
+  - Ask students to paraphrase the Bach's Oboe example.
+  - Invite some students to share their work in groups.
+  - Show the 3 paraphrasing example and ask students to select the best one after group discussion.(If time is limited, only do this excercise and skip the previous two.)
 
 
+#### Discussion (20-25 min) :  
 
-
-- Wheel of Destiny
+- *Must Do* Wheel of Destiny
 
 Stella McStat had been running a small-time gambling operation on campus for several months during her first year at U of T. It was disrupted during COVID, but now that vaccines are mandatory to be on campus, Stella is getting things back up and running.
 
@@ -85,20 +84,23 @@ i) fairly sure the spinner is fair,
 ii) fairly sure the spinner is NOT fair, and
 iii) when you wouldn't be willing to give Stella a decision either way.
 
-
-<!-- ![Tidy data rules. Image from https://r4ds.had.co.nz/tidy-data.html](tidy_rules.png) -->
-
+- *If time* What are the three interrelated rules that make a dataset tidy? 
+  <!-- - Each variable must have its own column. -->
+  <!-- - Each observation must have its own row. -->
+  <!-- - Each value must have its own cell. -->
+  
+![Tidy data @allison_horst](tidy_rules.jpeg){width=75%}
 
 <!-- - Are these data below tidy? Why or why not? If not, how to make them tidy? -->
 <!-- ![Tables.Image from https://r4ds.had.co.nz/tidy-data.html](table.png) -->
 
-<!-- - Why is data visualization so important? -->
+- Why is data visualization so important?
 
-<!-- - Why does your audience matter? (Think about what message you want to portray and the types of data/ visualizations that you’ll use) -->
+- Why does your audience matter? (Think about what message you want to portray and the types of data/ visualizations that you’ll use)
 
-<!-- - Why is it important for data visualizations to be intuitive? How can you ensure your figures are intuitive to the intended audience? -->
+- Why is it important for data visualizations to be intuitive? How can you ensure your figures are intuitive to the intended audience?
 
-<!-- - What might happen to a data visualization project if you failed to clean the data? -->
+- What might happen to a data visualization project if you failed to clean the data?
 
 \newpage
 
