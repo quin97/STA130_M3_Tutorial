@@ -40,7 +40,7 @@ header-includes:
 
 For functions above, you may want to present the ideas through:
 - an R demo with the Olympics Dataset
-- going through questions from [*Week2*](https://q.utoronto.ca/courses/239327/quizzes/269319) and [Week3](https://q.utoronto.ca/courses/239327/quizzes/269908) practice quizzes
+- going through questions from [*Week2*](https://q.utoronto.ca/courses/277998/quizzes/279235) and [Week3](https://q.utoronto.ca/courses/277998/quizzes/279236) practice quizzes
 - come up with your own quiz (e.g. on Kahoot!)
 
 #### Plagarism & Paraphrasing (25-30 min) :  
@@ -124,7 +124,7 @@ In your homework, you provided some visualizations, summaries, and discussion ab
 -	Aim for more than 200 words but less than 400 words.
 -	Use full sentences.
 -	Grammar is not the main focus of the assessment, but it is important that you communicate in a clear and professional manner. Remember, this is meant to be a small report to your boss! So you should not include any slang or emojis. 
--	Remember that you have only conducted a preliminary analysis and therefore you may not have a definitive answer. That is totally ok! It is hard to ever say something is 100% one way or another. Therefore, you will want to try to incorporate some hedging language into your writing. You can find more information about hedging in a short video here: [https://q.utoronto.ca/courses/253019/pages/writing-skills-videos](https://q.utoronto.ca/courses/253019/pages/writing-skills-videos-m3-problem-set)
+-	Remember that you have only conducted a preliminary analysis and therefore you may not have a definitive answer. That is totally ok! It is hard to ever say something is 100% one way or another. Therefore, you will want to try to incorporate some hedging language into your writing. You can find more information about hedging in a short video here: [https://q.utoronto.ca/courses/277998/pages/writing-skills-videos-week-3-problem-set](https://q.utoronto.ca/courses/277998/pages/writing-skills-videos-week-3-problem-set)
 
 
  
